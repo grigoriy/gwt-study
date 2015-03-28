@@ -12,6 +12,7 @@
         <spring.version>4.1.1.RELEASE</spring.version>
         <gwt.version>2.7.0-beta1</gwt.version>
         <gxt.version>3.1.1</gxt.version>
+        <postgresql.version>9.3-1100-jdbc41</postgresql.version>
     </properties>
 
     <dependencies>
@@ -63,6 +64,11 @@
             <groupId>com.sencha.gxt</groupId>
             <artifactId>gxt</artifactId>
             <version>${gxt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql.version}</version>
         </dependency>
     </dependencies>
 </project>
